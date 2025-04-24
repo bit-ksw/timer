@@ -13,14 +13,14 @@ function Button({ iconName, onPress }) {
 
 Button.propTypes = {
   iconName: PropTypes.string.isRequired,
-  onPress: PropTypes.func.isRequired
+  onPress: PropTypes.func.isRequired,
 };
 
 const styles = StyleSheet.create({
   container: {
-    height: 80,
-    width: 80
-  }
+    height: 90,
+    width: 80,
+  },
 });
 
 export default Button;
