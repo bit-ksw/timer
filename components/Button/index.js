@@ -18,7 +18,7 @@ Button.propTypes = {
 
 const styles = StyleSheet.create({
   container: {
-    height: 90,
+    height: 1000,
     width: 80,
   },
 });
